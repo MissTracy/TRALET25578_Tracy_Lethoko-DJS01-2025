@@ -1,4 +1,3 @@
-console.log("INDEX JS LOADED");
 console.log("APP IS RUNNING");
 
 import { podcasts } from "./data.js";

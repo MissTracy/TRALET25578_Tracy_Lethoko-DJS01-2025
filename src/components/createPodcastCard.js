@@ -1,6 +1,5 @@
-
-import { DateUtils } from "../utils/DateUtils.js";
-import { GenreService } from "../services/GenreService.js";
+import { DateUtils } from "./utils/DateUtils.js";
+import { GenreService } from "./utils/GenreService.js";
 
 export function createPodcastCard(podcast, onClick) {
   const card = document.createElement("div");

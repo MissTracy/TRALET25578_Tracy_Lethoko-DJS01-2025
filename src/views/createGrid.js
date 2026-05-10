@@ -1,5 +1,6 @@
 
 import { createPodcastCard } from "../components/createPodcastCard.js";
+import { createModal } from "../components/createModal.js";
 
 export function createGrid() {
   const container = document.getElementById("podcastGrid");
@@ -9,7 +10,7 @@ export function createGrid() {
 
     podcastList.forEach((podcast) => {
       const card = createPodcastCard(podcast, () => {
-        console.log("Clicked:", podcast.title);
+        createModal.open(podcast);
       });
 
       container.appendChild(card);

@@ -1,0 +1,31 @@
+#podcastGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 12px;
+
+  } 
+
+  .podcast-card {
+    width: 100%;
+    border: 1.5px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #fff;
+    box-sizing: border-box;
+
+  }
+
+  .podcast-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+  }
+
+
+  
+
+    

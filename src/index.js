@@ -15,6 +15,10 @@ function init() {
     .addEventListener("click", createModal.close);
   const grid = createGrid();
   grid.render(podcasts);
+
+  document.getElementById("podcastGrid").style.opacity = "1";
+
 }
 
-init();
+window.addEventListener("DOMContentLoaded", init);
+// init();

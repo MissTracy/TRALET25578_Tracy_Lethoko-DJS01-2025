@@ -3,6 +3,10 @@
 
 const modal = document.getElementById("modal");
 
+if (!modal) {
+  console.error("Modal not found in ");
+}
+
 export const createModal = {
   open(podcast) {
     modal.classList.remove("hidden");
